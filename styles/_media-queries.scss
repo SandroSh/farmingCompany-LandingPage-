@@ -1,0 +1,158 @@
+@import 'colors';
+
+
+
+
+
+// @keyframes opacityLoader {
+//     from{
+//         opacity: 0;
+//         transform: translateY(-10px);
+//     }
+//     to{
+//         opacity: 1;
+//         transform: translateY(0);
+//     }
+// }
+
+@media( max-width:1047px){
+    *{
+        text-align:center;
+    }
+    #header{
+        position: fixed;
+        .logos{
+            .threeLine{
+                display: block;
+               
+                
+            }
+            
+        }
+        nav{
+            position: fixed;
+            top:0;
+
+
+            right:-120%;
+            height: 100vh;
+            width: 20rem;
+            background:rgba($light-green, 0.9);
+        
+            ul{
+                flex-flow:column;
+                justify-content: center;
+                height: 100%;
+                li{
+                    margin:2rem 0;
+                    a{
+                        margin:1rem;
+                        font-size: 1rem
+                
+                    }
+                }
+            }
+        }
+        .nav-toggle{
+            right: 0%;
+        }
+    }
+    #home{
+        .products{
+            .production-box{
+                margin:20px auto;
+                .info{
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+    
+    #partner-company{
+        .background-img{
+            h1{
+                font-size:3rem;
+            }
+        }
+    }
+
+    #contact{
+      
+        .contact-boxes{
+            position:static;
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            .contact-left-box{
+                
+                position:static;
+                 
+                border-radius:0;
+                width: 100vw;
+                height: 25rem;
+                background-color:$light-green;
+                border-bottom:10px double white;
+                
+                ul{
+                    align-items: center;
+                    li{ font-family: "Quando", cursive;
+                        
+                        color:white;
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+            .contact-box{
+               
+                position:static;
+                border-radius:0;
+                background-color: $darkblue;
+                border-style: none;
+                margin-bottom: 50px;
+                width: 100vw;
+                height: 25rem;
+                iframe{ 
+             
+                    border-radius: 0;
+                    width: 100%;
+                    height: 100%;
+                   
+                    
+                    
+                 }
+              
+            }
+        }
+       
+    }
+    #footer{
+        margin:0;
+        .footer-content{
+            flex-direction: column;
+            .allRights{
+                align-self: center !important;
+            }
+        }
+    }
+
+    .education-landing-page{
+        .texts-main-container{
+           
+            .text-container{
+                width:50vw;
+                
+                h2{
+                    font-size: 1rem;
+                }
+                p{  font-size:10px;
+                    margin-top:2rem;
+                }
+            }
+        }
+    }
+   
+}    
+
+
+

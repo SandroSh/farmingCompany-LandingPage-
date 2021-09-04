@@ -1,0 +1,86 @@
+@import "media-queries";
+@import 'colors';
+
+
+
+
+#footer{
+    width: 100%;
+    margin-top:10rem;
+    background: $darkblue;
+    padding: 10px 0;
+    .footer-content{
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .brand{
+           
+            a{
+                font-size:1.7rem;
+                margin:2rem 1rem;
+                color:white;
+                text-decoration: none;
+                padding: 5px;
+                border-radius: 5px;
+                &:hover:nth-child(1){
+                   background:#1b4aa8;
+                    transform: scale(1.2);
+                }
+                &:hover:nth-child(2){
+                    background:#1DA1F2;
+                    transform: scale(1.2);
+                }
+                
+
+
+                &:hover:nth-child(3){
+                    background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+                    transform: scale(1.2);
+                }
+                &:hover:nth-child(4){
+                    background:#11b640;
+                    transform: scale(1.2);
+                }
+            }
+        }
+        .allRights{
+            align-self: flex-end;
+            h5{
+                color:white;
+                font-family:serif;
+                
+            }
+        }
+        .letter{
+            margin-right: 10px;
+            h2{
+                font-size: 1.5rem;
+                margin:0.5rem 0;
+                color:white;
+            }
+
+
+            input[type="text"]{
+                border:.2rem solid white;
+                outline: none;
+              
+                height:1.7rem;
+               
+                width: 17rem;
+                padding:0 .5rem;
+                font-size: 1rem;
+                color:$darkblue;
+                
+            }
+            input[type="submit"]{
+                border-style: none;
+                margin:0.5rem 0;
+                padding:0 .5rem;
+                font-size: 1rem;
+                color:#fff;
+                background-color: $light-green;
+            }
+        }
+    }
+}                

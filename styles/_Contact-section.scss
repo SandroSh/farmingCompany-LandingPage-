@@ -1,0 +1,66 @@
+@import "media-queries";
+@import 'colors';
+
+
+
+
+#contact{
+    min-height: 100vh;
+  
+    .contact-boxes{
+        
+        position: relative;
+
+        .contact-left-box{
+            position:absolute;
+            left: -20px;
+            background-color: $darkblue;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius:50px;
+            width: 45vw;
+            height: 26rem;
+            ul{ 
+                @extend %disp-flex;
+                align-items: flex-start;
+                flex-flow: column;
+               
+                li{
+                    font-family: "Poppins", sans-serif;
+                    list-style: none;
+                    color:white;
+                    font-size: 1.7rem;
+                     margin:3rem 0;
+                   
+                    i{
+                        margin-right: 25px;
+                    }
+
+                   
+                }
+            }
+        }
+       
+        .contact-box{
+            position:absolute;
+            right:0;
+            border-top:7px solid $darkblue;
+            border-bottom:7px solid $darkblue;
+            border-left:7px solid $darkblue;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius:50px;
+            display: flex;
+            justify-content: center;
+            iframe{ 
+             
+              
+               width: 45vw;
+               height: 25rem;
+               border-top-left-radius: 40px;
+               border-bottom-left-radius: 40px;
+               
+               
+            }
+        }
+    }
+    
+}

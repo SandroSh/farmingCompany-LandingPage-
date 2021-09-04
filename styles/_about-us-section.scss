@@ -1,0 +1,21 @@
+@import "media-queries";
+@import 'colors';
+
+
+
+
+#about-us{
+    @extend %disp-flex;
+    flex-flow: column;
+    max-width: 1320px;
+    .text{
+        width:70%;
+     
+        
+        p{
+            color:$light-green;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+}
