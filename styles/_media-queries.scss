@@ -61,6 +61,8 @@
         .products{
             .production-box{
                 margin:20px auto;
+                width: 20rem;
+                height: 14rem;
                 .info{
                     font-size: 3rem;
                 }
@@ -132,6 +134,7 @@
             flex-direction: column;
             .allRights{
                 align-self: center !important;
+                font-size: 29px;
             }
         }
     }
